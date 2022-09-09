@@ -1,0 +1,901 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Slab:wght@300;400&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Noto+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+body{
+    
+    text-align: center;
+    font-weight: bolder;
+    flex-direction: column;
+    display: flex;  
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    display: grid;
+    justify-content: center;
+    color: snow;
+    
+    
+}
+header:hover{
+    transform: scale(2);
+}
+
+.contenido{
+    font-family: 'Bebas Neue', cursive;
+    color: snow;
+}
+
+nav ul li{
+    font-family: 'Cairo', sans-serif;
+    list-style-type: none;
+
+}
+h1{
+    display: flex;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.titulohist{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+
+
+}
+.titulo_galeria{
+    font-family: 'Anton', sans-serif;
+    background-color: rgba(86, 125, 158, 0.952); 
+
+}
+.titulo_cocteles{
+    font-family: 'Roboto', sans-serif; 
+}
+.titulo_cervezas{
+    font-family: 'Roboto', sans-serif; 
+}
+.titulo_vinos{
+    font-family: 'Roboto', sans-serif; 
+}
+.titulo_whiskys{
+    font-family: 'Roboto', sans-serif; 
+}
+h2{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    margin-left:20%;
+    
+}
+.parrafohistoria{
+    background-color: rgba(241, 233, 187, 0.952);
+
+}
+
+
+p{
+    display: flex;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.ad{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: snow;
+    
+}
+/* Formluario de contacto */
+*{
+    box-sizing: border-box;
+}
+
+.content {
+    background: #181818;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span{
+    color: #0e19b771;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #3f147765;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #30b5d69f;
+}
+
+.contact-form form button {
+    background: #0e256686;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #0f9c858e;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+.contact-info {
+    background:  rgba(60, 35, 175, 0.295);
+}
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+footer{
+    padding: 3em;
+    background-color:black;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+}
+.icons{
+    font-size: 40px;
+}
+.git{
+    color: #b2b2b2;
+}
+.doc{
+    color: #b2b2b2;
+}
+.linkedin{
+    color: #b2b2b2;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+
+.contenido{
+    grid-area: contenido;
+}
+.ad{
+    grid-area: ad;
+}
+
+
+.galeria{
+    grid-area: galeria;
+
+}
+.galeriafotos{
+    grid-area: galeriafotos;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.envoltura{
+    background-color: rgb(21, 49, 77);
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "contenido"
+    "ad"
+    "galeria"
+    "footer";
+    gap: 20px;
+}
+
+.envolturagaleria{
+    background-color: rgb(21, 49, 77);
+    
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav";
+    gap: 20px;
+
+}
+.envolturacontacto{
+    background-color: rgb(21, 49, 77);
+    
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav";
+    gap: 20px;
+
+}
+.envolturahistoria{
+    background-color: rgb(21, 49, 77);
+    
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav";
+    gap: 20px;
+
+}
+.envolturaservicios{
+    background-color: rgb(21, 49, 77);
+    
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav";
+    gap: 20px;
+
+}
+
+.galeria{
+    background-color: rgba(86, 125, 158, 0.952);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+}
+.galeriafotos{
+    background-color: rgba(86, 125, 158, 0.952);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+}
+.galeriafotos2{
+    background-color: rgba(86, 125, 158, 0.952);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+}
+.galeriafotos3{
+    background-color: rgba(86, 125, 158, 0.952);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+}
+.galeriafotos4{
+    background-color: rgba(86, 125, 158, 0.952);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+}
+.envoltura_cervezas{
+    background-color: rgba(123, 156, 46, 0.089);
+   
+    
+}
+.envoltura_cocteles{
+    background-color: rgba(182, 60, 141, 0.315);
+    
+}
+.envoltura_vinos{
+    background-color: rgba(90, 7, 7, 0.644);
+}
+.envoltura_whiskys{
+    background-color: rgba(157, 167, 21, 0.568);
+}
+img{
+    border: 8px solid black;
+    margin-top: 15px;
+}
+@mixin sizes ($width,$height){
+    height: $height;
+    width: $width;  
+}
+iframe{
+    border: 8px solid black;
+    @include sizes (340px,151.4px);
+    margin-top: 15px;
+
+}
+.cincotragos img{
+    @include sizes (340px,151.4px);  
+}
+.doswhiskys img{
+    @include sizes (340px,226.6px);  
+}
+.fcoca img{
+    @include sizes (340px,224.6px);
+}
+.cervezasgroup img{
+    @include sizes (340px,226.5px);
+}
+/* Galeria */
+.cerveza-gene img{
+    height: 300px;
+
+}
+
+.vodka img{
+    height: 300px;
+}
+.cerve-gale img{
+    height: 300px;
+}
+
+.cerveza-gene2x img{
+    height: 300px;
+
+}
+.coctelx img{
+    height: 300px;
+
+}
+.fernetx img{
+    height: 300px;
+
+}
+.vino-destapadorx img{
+    height: 300px;
+
+}
+.vino-galex img{
+    height: 300px;
+
+}
+.vinos-copasx img{
+    height: 300px;
+
+}
+.whisky-galex img{
+    height: 300px;
+
+}
+.whisky-servx img{
+    height: 300px;
+}
+
+/* Galeria de historias */
+.andes img{
+    height: 300px;
+}
+.brahma img{
+    height: 300px;
+}
+.budwaiser img{
+    height: 300px;
+}
+.corona img{
+    height: 300px;
+}
+.heineken img{
+    height: 300px;
+
+}
+.patagonia img{
+    height: 300px;
+}
+.quilmes img{
+    height: 300px;
+}
+.stella img{
+    height: 300px;
+    
+}
+.bloody_mary img{
+    height: 300px;
+}
+.negroni img{
+    height: 300px;
+
+}
+.pinia_colada img{
+    height: 300px;
+
+}
+.daiquiri img{
+    height: 300px;
+}
+
+
+.almamora img{
+    height: 300px;
+}
+.vino-portillo img{
+    height: 300px;
+}
+.callia img{
+    height: 300px;
+
+}
+.jack-daniels img{
+    height: 300px;
+}
+.redlabel img{
+    height: 300px;
+
+}
+
+.carou_qui{
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer{
+    margin-top: 0px;
+}
+
+@media (min-width:500px){
+    .envoltura{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "contenido"
+        "ad"
+        "galeria"
+        "footer"; 
+
+    }
+    .envolturacontacto{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav";
+        
+    }
+    .envolturagaleria{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav";
+        gap: 20px;
+    
+    }
+
+    .envolturahistoria{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav";
+        
+    }
+    .envolturaservicios{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav";
+        
+    }
+
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 15px;
+        justify-items: center;
+
+    }
+    .galeriafotos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 15px;
+        justify-items: center;
+    }
+    img{
+        border: 8px solid black;
+        margin-top: 15px;
+    }
+    @mixin sizes500 ($width,$height,$margin-top){
+        height: $height;
+        width: $width;
+        margin-top: $margin-top;   
+    }
+    iframe{
+        @include sizes500 (490px,221.5px,15px);
+        border: 8px solid black;
+    }
+    .cincotragos img{
+        @include sizes500 (490px,221.5px,0px);  
+    }
+    .doswhiskys img{
+        @include sizes500 (490px,326.7px,0px);   
+    }
+    .fcoca img{
+        @include sizes500 (490px,326.6px,0px);
+    }
+    .cervezasgroup img{
+        @include sizes500 (490px,326px,0px);
+    }
+    footer{
+        margin-top: 0px;
+    }
+    
+}
+
+
+@media (min-width:768px){
+    .envoltura{
+        
+        grid-template-columns: 1fr 9fr 1fr;
+        grid-template-areas:
+        "header header    header"
+        "contenido      contenido nav"
+        
+        "ad     ad        ad"
+        "galeria galeria galeria"
+        "footer   footer     footer"; 
+
+    }
+    .envolturacontacto{
+        
+        grid-template-columns: 1fr 9fr 1fr;
+        grid-template-areas: 
+        "header header header"
+        "nav    nav nav";
+        gap: 20px;
+
+    }
+    .content {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+
+    .envolturagaleria{
+        
+        grid-template-areas: 
+        "header"
+        "nav";
+        gap: 20px;
+    
+    }
+    .envolturahistoria{
+        
+        grid-template-areas: 
+        "header"
+        "nav";
+        gap: 20px;
+    
+    }
+    .envolturaservicios{
+        
+        grid-template-areas: 
+        "header"
+        "nav";
+        gap: 20px;
+    
+    }
+    .gridsgalerias{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 15px;
+        justify-items: center;
+
+    }
+    .galeria{
+        @extend .gridsgalerias;
+    }
+    .galeriafotos{
+        @extend .gridsgalerias;
+
+    }
+
+    @mixin sizes768 ($width,$height,$margin-top){
+        height: $height;
+        width: $width;
+        margin-top: $margin-top   
+    }
+    .cincotragos img{
+        @include sizes768 (760px,343px,18px);
+    }
+    .doswhiskys img{
+        @include sizes768 (760px,506px,18px);
+    }
+    .fcoca img{
+        @include sizes768 (760px,504px,18px);
+
+    }
+    .cervezasgroup img{
+        @include sizes768 (760px,503px,18px);
+    }
+    
+    iframe{
+        @include sizes768 (760px,343px,18px);
+    }
+    /* Galeria */
+    .cerveza-gene img{
+        height: 500px;
+    
+    }
+    
+    .vodka img{
+        height: 500px;
+    }
+    .cerve-gale img{
+        height: 500px;
+    }
+    
+    .cerveza-gene2x img{
+        height: 500px;
+    
+    }
+    .coctelx img{
+        height: 500px;
+    
+    }
+    .fernetx img{
+        height: 500px;
+    
+    }
+    .vino-destapadorx img{
+        height: 500px;
+    
+    }
+    .vino-galex img{
+        height: 500px;
+    
+    }
+    .vinos-copasx img{
+        height: 500px;
+    
+    }
+    .whisky-galex img{
+        height: 500px;
+    
+    }
+    .whisky-servx img{
+        height: 500px;
+    }
+    /* Galeria de historias */
+    .andes img{
+        height: 500px;
+    }
+    .brahma img{
+        height: 500px;
+    }
+    .budwaiser img{
+        height: 500px;
+    }
+    .corona img{
+        height: 500px;
+    }
+    .heineken img{
+        height: 500px;
+    
+    }
+    .patagonia img{
+        height: 500px;
+    }
+    .quilmes img{
+        height: 500px;
+    }
+    .stella img{
+        height: 500px;
+    }
+    .bloody_mary img{
+        height: 500px;
+    }
+    .negroni img{
+        height: 500px;
+    
+    }
+    .pinia_colada img{
+        height: 500px;
+    
+    }
+    .daiquiri img{
+        height: 500px;
+    }
+    
+    
+    .almamora img{
+        height: 500px;
+    }
+    .vino-portillo img{
+        height: 500px;
+    }
+    .callia img{
+        height: 500px;
+    
+    }
+    .jack-daniels img{
+        height: 500px;
+    }
+    .redlabel img{
+        height: 500px;
+    
+    }
+    
+    footer{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:1024px){
+    .galeria{
+        background-color: rgba(86, 125, 158, 0.952);
+    }
+    .galeriafotos{
+        background-color: rgba(86, 125, 158, 0.952);
+        display: flex;
+        justify-content: center;
+
+    }
+    .galeriafotos2{
+        background-color: rgba(86, 125, 158, 0.952);
+        display: flex;
+        justify-content: center;
+
+    }
+    .galeriafotos3{
+        background-color: rgba(86, 125, 158, 0.952);
+        display: flex;
+        justify-content: center;
+
+    }
+    .galeriafotos4{
+        background-color: rgba(86, 125, 158, 0.952);
+        display: flex;
+        justify-content: center;
+
+    }
+    @mixin sizes1024 ($width,$height,$margin-top){
+        height: $height;
+        width: $width;
+        margin-top: $margin-top
+        
+    }
+    .cincotragos img{
+        @include sizes1024 (1016px,459px,18px);
+    }
+    
+    .doswhiskys img{
+        @include sizes1024(1016px,677px,18px)
+    }
+    .fcoca img{
+        @include sizes1024(1016px,674px,18px)
+    }
+    .cervezasgroup img{
+        @include sizes1024(1016px,675px,18px)
+
+    }
+    
+    iframe{
+        @include sizes1024(1016px,459px,18px)
+    }
+    footer{
+        margin-top: 0px;
+    }
+    
+    .cerveza-gene img{
+        height: 600px;
+    }
+    .vodka img{
+        height: 600px;
+    }
+    .cerve-gale img{
+        height: 600px;   
+    }
+
+
+    .cerveza-gene2x img{
+        height: 600px;
+
+    }
+    .coctelx img{
+        height: 600px;
+
+    }
+    .fernetx img{
+        height: 600px;
+
+    }
+    .vino-destapadorx img{
+        height: 600px;
+
+    }
+    .vino-galex img{
+        height: 600px;
+
+    }
+    .vinos-copasx img{
+        height: 600px;
+
+    }
+    .whisky-galex img{
+        height: 600px;
+
+    }
+    .whisky-servx img{
+        height: 600px;
+        
+
+    }
+    
+}
+
